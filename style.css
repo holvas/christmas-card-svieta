@@ -3,7 +3,7 @@
        margin: 0; 
        padding: 0; 
        font-family: 'Arial', sans-serif; 
-       background: linear-gradient(135deg, #b92b27, #1565c0); 
+       background: linear-gradient(135deg, #3eaf02, #15c06a); 
        color: #fff; 
        text-align: center; 
        overflow-x: hidden; 
@@ -72,14 +72,14 @@
        padding: 10px 20px; 
        font-size: 16px; 
        color: #fff; 
-       background: #3a115c; 
+       background:#486010; 
        border: none; 
        border-radius: 5px; 
        text-decoration: none; 
        transition: background 0.3s ease, transform 0.3s ease; 
      } 
      .button:hover { 
-       background: #4e2b6a; 
+       background: #263309; 
        transform: translateY(-3px); 
      }
 
@@ -89,15 +89,15 @@
 
      .iframe {
       max-width: 300px;
-      border: 3px solid #664e79;
+      border: 3px solid #486010;
       border-radius: 10px;
-      box-shadow: 0 4px 6px rgba(206, 166, 249, 0.673); 
+      box-shadow: 0 4px 6px #c9f562ae; 
      }
 
      /* Media query for screens 320px and smaller */
      @media (max-width: 320px) {
       .card {
-          padding: 10px;
+        margin: 10px;
           font-size: 14px;
       }
       h1 {
@@ -116,7 +116,7 @@
   /* Media query for screens 768px and smaller */
   @media (max-width: 768px) {
       .card {
-          padding: 10px;
+          margin: 10px;
           font-size: 16px;
       }
       h1 {
